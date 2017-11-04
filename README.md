@@ -44,6 +44,6 @@ src--代码目录<br/>
 
   使用方法 
   下载后 首先 npm install  安装依赖
-  开发 ==  npm start 启动本地服务 根目录写的是stock 所以需要这样访问 ip:port/stock
+  开发 ==  npm start 启动本地服务 根目录写的是stock 所以需要这样访问 ip:port/stock<br/>
   正式 npm run build 打包编译  把build文件放到服务器上即可  需要指定地址
 
