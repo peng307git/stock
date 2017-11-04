@@ -1,0 +1,60 @@
+
+
+.info_main{
+    width: 100%;
+    height: 170px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-right: 0;
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #065cb3, #03182d); 
+    /* Safari 4-5, Chrome 1-9 */ 
+    /* -webkit-gradient(,  [, ]?,  [, ]? [, ]*) */
+    background: -webkit-gradient(linear,top,from(#065cb3),to(#03182d));
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #065cb3, #03182d);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #065cb3, #03182d);
+    color: #fff;
+    font-size: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    .left,.content,.right{
+        display: flex;
+        flex: 1;
+        flex-direction:column;
+    }
+    .left{
+        div{
+            width: 100%;
+        }
+        .top{
+            .totalnumber{
+                height: 50px;
+                line-height: 50px;
+                font-size: 0.36rem;
+            }
+            .totaltages{
+                line-height: 24px;
+                margin-bottom: 4px;
+            }
+        }
+        .foot{
+            height: 46px;
+            .cantages{
+                height: 22px;
+                line-height: 22px;
+            }
+        }
+    }
+    .content,.right{
+        div{
+            width: 100%;
+            height: 22px;
+            line-height: 22px;
+            margin-bottom: 14px;
+        }
+    }
+    .right{
+    }
+}

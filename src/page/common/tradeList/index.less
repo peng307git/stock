@@ -1,0 +1,78 @@
+.tradelist_main{
+    width: 100%;
+    background: #202022;
+    color: #fff;
+    .head{
+        display: flex;
+        justify-content: space-between;
+        color: #999;
+        height: 40px;
+        line-height: 40px;
+        font-size: 0.24rem;
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666;
+        padding: 0 10px;
+        div{
+            flex: 1;
+            text-align: right;
+        }
+        div:nth-child(1){
+            text-align: center;
+        }
+    }
+    .body{
+        width: 100%;
+        color: #fff;
+        overflow: hidden;
+        .tr{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 52px;
+            padding: 0 10px;
+            padding-top: 10px;
+            .td{
+                flex: 1;
+                text-align: right;
+                div:nth-child(1){
+                    height: 24px;
+                    line-height: 24px;
+                }
+            }
+            .td:nth-child(1){
+                text-align: center;
+            }
+        }
+        .tr_x{
+            height: 25px;
+            line-height: 25px;
+            border-bottom: 1px solid #666;
+            display: flex;
+            justify-content: center;
+            .td{
+                flex: 1;
+                color: #1296db;
+                font-size: 0.24rem;
+                padding-left: 10%;
+                border-right: 1px solid #666;
+                margin-bottom: 4px;
+                text-decoration: none;
+            }
+            img{
+                height: 14px;
+                margin-right: 4px;
+                position: relative;
+                top: 2px;
+            }
+        }
+        .nobody{
+            width: 100%;
+            height: 188px;
+            padding-top: 40px;
+            text-align: center;
+            img{
+                height: 80px;
+            }
+        }
+    }
+}
